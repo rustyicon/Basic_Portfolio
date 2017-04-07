@@ -9,35 +9,44 @@ body{
 }
 
 header { 
-	background: #ffffff;
+	background:#4aaaa5;
 	border-color: #cccccc;
 	position:relative;
 }
 
 h1 {
-	padding: 20px;
-	margin:0;
-	margin-bottom: 20px;
 	font-size: 28px;
-	color: #4aaaa5;
+	color: white;
 	font-family: Georgia, Times, 'Times New Roman', serif;
-	text-align: center;
 	border: box;
 }
 
+#page-nav,	{
+	display: inline;
+	float:right;          
+}
+
 .container {
+	float:left;
 	width:650px;
 	margin: 0 auto;
 }
-
-#page-nav,	{
-	position:absolute;          SS
-}
-
-
-#id{
+#bio {
 	text-align: center;
 	border-style: solid;
 	border-width: 5px;	
 	position: inside;
 }
+
+#connect {
+	float:left;
+}
+
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+}
+
